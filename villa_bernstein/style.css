@@ -1,0 +1,421 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: Athiti, Cormorant, sans-serif;
+   font-size: 18px;
+    line-height: 26px;
+}
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(214, 176, 111, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255, 0.9);
+
+}
+
+h2 {
+    font-family: Cormorant, sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+hr {
+    margin: 40px 0 0 0;
+    height: 5px;
+    background: linear-gradient(rgb(254, 226, 129),rgb(214, 176, 111));
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* ------------------------------------------- */
+/*                 KOPFZEILE                   */
+/* ------------------------------------------- */
+
+header {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(19, 15, 9),rgb(55, 55, 53)) ;
+}
+
+.logo {
+    padding: 10px 100px;
+}
+
+.search {
+    padding: 20px;
+    display: flex;
+    gap: 2rem;
+}
+
+
+.suchfeld input {
+    width: 200px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(254, 226, 129),rgb(214, 176, 111));
+    color: rgb(255, 255, 255);
+  }
+
+  
+.hauptnavi {
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(rgb(254, 226, 129),rgb(214, 176, 111));
+
+
+}
+.hauptnavi ul {
+    display: flex;
+    gap: 1rem 3rem;
+    padding: 12px 400px;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.hauptnavi ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0 ,0, 0);
+    font-family: Cormorant SC, sans-serif;
+
+}
+
+.hauptnavi ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* ------------------------------------------- */
+/*                  HOME TEIL                  */
+/* ------------------------------------------- */
+
+.home {
+    padding: 40px;
+}
+
+.home h2 {
+    color: rgb(214, 176, 111);
+    text-shadow: 3px 3px 8px rgb(254, 226, 129, 0.3);
+ 
+}
+
+.home article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 3rem;
+    padding: 20px 0 0 0;
+}
+
+.home p {
+    width: 400px;
+    margin-top: 20px;
+
+}
+
+.home figure {
+    padding: 30px 0;
+
+}
+
+.home img {
+    border-radius: 20px;
+}
+
+button {
+    margin: -200px 0 0 700px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(rgb(254, 226, 129),rgb(214, 176, 111));
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button a:hover {
+    padding: 5px 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(214, 176, 111);
+}
+
+
+/* ------------------------------------------- */
+/*             Termine / Preise                */
+/* ------------------------------------------- */
+
+
+.termpreis {
+    margin: 40px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 3rem;
+}
+
+.termpreis article {
+    height: 200px;
+    padding: 30px;
+    border-radius: 30px;
+    background: linear-gradient(rgb(254, 226, 129, 0.2),rgb(214, 176, 111, 0.6));
+}
+
+
+/* ------------------------------------------- */
+/*                  Menü BOX                   */
+/* ------------------------------------------- */
+
+.menubox {
+    margin: 40px 0 0 0;
+
+}
+
+.menubox article {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem 1rem;
+    padding: 30px 0 0 0;
+}
+
+.menubox figure img {
+    width: 300px;
+    height: 300px;
+    filter: gray;
+    filter: grayscale(40%);
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.3);
+}
+
+.menubox figure img:hover {
+    filter: grayscale(0);
+}
+
+.menubox figcaption {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+
+}
+
+
+
+/* ------------------------------------------- */
+/*                    SPIEL                    */
+/* ------------------------------------------- */
+
+.spielbox {
+    padding: 30px;
+    margin: 0 0 -40px 0;
+    background: url(img/bg_spiel.jpg);
+    color: rgb(255, 255, 255);
+
+}
+
+.spielbox .spiel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem 4rem;
+    padding: 30px;
+    margin: 0 0 -40px 0;
+}
+
+.spielbox p {
+    margin-top: 20px;
+
+}
+
+.bilder {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem 2rem;  
+}
+
+.bilder figure  {
+    margin: 0 auto;    
+}
+
+.bilder figure img {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+.bilder figcaption {
+    text-align: center;
+    font-size: 11px;
+    margin: 0 auto;
+
+}
+
+/* ------------------------------------------- */
+/*                     IDEE                    */
+/* ------------------------------------------- */
+
+
+.ideebox {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 400px;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 30px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+
+/* ------------------------------------------- */
+/*                   KONTAKT                   */
+/* ------------------------------------------- */
+
+.kontakt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+
+.kontakt img {
+    width: 80%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.kontakt i {
+    font-size: 14px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.strong {
+    padding: 10px 0;
+}
+
+
+/* ------------------------------------------- */
+/*                 ANMELDUNG                   */
+/* ------------------------------------------- */
+
+.register {
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(254, 226, 129, 0.1);
+}
+
+.register article {
+    display: flex;
+    width: 300px;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.7);   
+}
+
+label {
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: rgba(200, 200, 200, 0.1);
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3), inset -2px -2px 4px rgba(255, 255, 255, 0.4);
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    max-width: 300px;
+    background-color: rgba(120, 120, 120, 0.1);
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3), inset -2px -2px 4px rgba(255, 255, 255, 0.4);
+}
+
+select {
+    height: 40px;
+    padding: 0 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(214, 176, 111, 0.2);
+}
+
+.reset, .submit {
+    width: 90px;
+    margin: 10px 5px;
+    background: linear-gradient(rgb(254, 226, 129, 0.7),rgb(214, 176, 111, 0.9));
+    box-shadow:  2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* ------------------------------------------- */
+/*                    FOOTER                   */
+/* ------------------------------------------- */
+
+.footernavi ul {
+
+    padding: 20px 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background: linear-gradient(rgb(55, 55, 53), rgb(19, 15, 9));
+}
+
+.footernavi ul li a{
+    text-decoration: none;
+    font-family: Cormorant SC, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.copy {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(rgb(254, 226, 129),rgb(214, 176, 111));
+}
+
+span {
+    opacity: 30%;
+    padding: 40px auto;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+
+span img {
+    width: 60px;
+    position: sticky;
+    top: 100%;
+}
+
